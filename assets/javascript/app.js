@@ -55,8 +55,7 @@
      console.log("shoOneB");
      console.log("shoOneC");
 
-     $("document").getElementById("QuestOne")
-         .innerHTML.("shoOne");
+     $(".QuestOne").text("shoOne"");
      $("qOneA").value("shoOneA");
      $("qOneB").value("shoOneB");
      $("qOneRgt").value("shoOneRgt");
