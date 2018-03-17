@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework Wk5 Trivia Game</title>
+      <!-- Added link to the jQuery library -->
+    <script href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <!-- Added a link to Bootstrap-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+     crossorigin="anonymous">
+
+       <!-- LOCAL CSS FILE-->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+        <!--THE BACKGROUND for the ENTIRE PAGE-->
+   <div id="container">
+   </div>
+
+   <h2>HOW MUCH DO YOU KNOW</h2>
+   <p>Answer the questions below in 5 minutes or less</p>
+   <p>Press START to initiate the Countdown Timer and begin the game</p>
+   <p>When finished press END or let the timer run down</p>
+
+
+   <div id="tqForm" title="TRIVIA QUESTIONS">
+       <div id="rStart" class="row">
+           <div class="col-sm-6">
+               <div id="gStart">
+                   <input type="submit" id="StartBtn" value="START">
+                   <a class="dspTimer">Time Remaining</a>
+               </div>
+           </div>
+       </div>
+       <div id="rClrWht" class="row">
+           <div class="col-sm-12">
+               <p id="QuestOne"></p>
+               <div id="QOneChoices">
+                   <input type="radio" name="qOneA" value="oneA">
+                   <br>
+                   <input type="radio" name="qOneB" value="oneB">
+                   <br>
+                   <input type="radio" name="qOneC" value="oneRgt">
+               </div>
+           </div>
+       </div>
+       <div id="rClrYllo" class="row">
+           <div class="col-sm-12">
+               <p id="QuestTwo"></p>
+               <div id="QTwoChoices">
+                   <input type="radio" name="qTwoA" value="twoA">
+                   <br>
+                   <input type="radio" name="qTwoRgt" value="twoRgt">
+                   <br>
+                   <input type="radio" name="qTwoC" value="twoC">
+               </div>
+           </div>
+       </div>
+       <div id="rClrGrn" class="row">
+           <div class="col-sm-6">
+               <div id="EndScores">
+                   <input type="submit" id="EndBttn" value="END">
+                   <a class="dspRght">Correct</a>
+                   <a class="dspWrng">Incorrect</a>
+               </div>
+           </div>
+       </div>
+  </div>
+
+       <!-- LOCAL JAVASCRIPT FILE-->
+    <script src="assets/javascript/app.js"></script>
+
+     
+</body>
+</html>

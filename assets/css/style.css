@@ -1,0 +1,67 @@
+
+.container {
+    background-color: lightgrey;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;    
+}
+
+.rStart{
+    height: 65px;
+    width: 100%;
+    margin: 2px 5px 0 0;
+    background-color: lightcyan;
+    border-color: transparent;
+}
+
+#gStart{
+    margin: 10px 10px 10px 30px;
+}
+
+#StartBtn{
+    background-color: lightgrey;
+    color: blue;
+}
+
+.dspTimer{
+    color: black;
+}
+
+#rClrWht{
+    height: 120px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: transparent;
+}
+
+#rClrYllo{
+    height: 120px;
+    width: 100%;
+    background-color: lightyellow;
+    border: transparent;
+}
+
+#rClrGrn{                                                                                                                                                                                                               <div class="row"
+    height: 65px;
+    width: 100%;
+    background-color: lightgreen;
+    border: transparent;
+}
+
+#EndScores{
+    margin: 15px;
+}
+
+#EndBttn{
+    background-color: lightgrey;
+    color: blue;
+}
+
+.dspRght{
+    color: black;
+}
+
+.dspWrng{
+    color: black;
+}
